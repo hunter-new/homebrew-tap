@@ -12,7 +12,6 @@ cask "appcloner" do
 
   app "AppCloner.app"
 
-  # 不删除 ~/Applications/AppClones：里面是用户生成的分身
   zap trash: [
     "~/Library/Preferences/local.appcloner.plist",
     "~/Library/Saved Application State/local.appcloner.savedState",
