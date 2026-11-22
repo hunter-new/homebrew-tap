@@ -4,7 +4,6 @@ cask "appcloner" do
 
   url "https://github.com/hunter-new/appcloner/releases/download/v#{version}/AppCloner-#{version}.dmg"
   name "AppCloner"
-  name "App 分身"
   desc "Create independent copies of apps to run multiple instances side by side"
   homepage "https://github.com/hunter-new/appcloner"
 
